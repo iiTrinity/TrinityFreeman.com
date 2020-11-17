@@ -1,0 +1,202 @@
+﻿html {
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+body {
+    background-color:black;
+}
+
+
+/* Navigation Bar Styles*/
+.NavigationBar {
+    /*position:sticky;
+    top:0;
+    z-index: 100;*/
+    display:flex;
+    background-color: black;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 1.1rem;
+}
+
+/*NAVIGATION BAR TRANSITIONS*/
+#Packet{
+    display:inline;
+    position:relative;
+    z-index:0;
+}
+#LinkPic {
+    -webkit-transition: opacity 1s;
+    display: inline;
+    position: absolute;
+    opacity: 0;
+    z-index: 0;
+    right: 12.5%;
+    bottom: 0;
+    padding: 0px;
+}
+#NavLink:hover ~ #LinkPic{
+    opacity: 1;
+}
+#NavLink {
+    -webkit-transition: opacity 1s;
+    transition:opacity 1s;
+    position: relative;
+    color: rgb(255 255 255 / .75);
+    margin-left: .5em;
+    margin-right: .5em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    z-index: 2;
+}
+#Packet #NavLink:hover{
+    opacity:0;
+}
+
+
+ /* Center Circle Styles */
+#Circle {
+    margin-top: 1em;
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 200px;
+    background: #e7e7e7;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.CircleBox {
+    margin-top: 5em;
+    text-align: -webkit-center;
+}
+
+
+/* About Me Line*/
+.AboutMeLine {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 3em;
+    font-size: 1.5rem;
+}
+.AboutMeLineLeft {
+    display: inline-block;
+    width: 40%;
+    margin-top: 5em;
+    margin-bottom: 0.5em;
+    margin-right: .5em;
+    border-style: inset;
+    border-width: 1px;
+    color: #e7e7e7;
+    opacity:.35;
+}
+h2{
+    font-weight:lighter;
+    font-size: 1.2rem;
+}
+h3 {
+    display: inline-block;
+    color: #e7e7e7;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 400;
+    color: rgb(255,255,255, .75);
+}
+.AboutMeLineRight {
+    display: inline-block;
+    width: 40%;
+    margin-top: 5em;
+    margin-bottom: 0.5em;
+    margin-left: .5em;
+    border-style: inset;
+    border-width: 1px;
+    color: #e7e7e7;
+    opacity:.35;
+}
+
+/*ABOUT ME BODY*/
+.AboutMeBody {
+    margin-top: 1em;
+    text-align: -webkit-center;
+}
+#AboutMeBox {
+    width: 1200px;
+    height: 500px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    border-radius: 110px;
+    background: black; /*#1c1c1c*/
+    display: flex;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.AboutMeParagraph {
+    text-align: left;
+    width: 69%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(255 255 255 / .50);
+    margin-top: 4em;
+    margin-left:5em;
+    line-height: 40px;
+}
+#Portrait{
+    margin-right: 1em;
+    align-self:center;
+    float:right;
+}
+
+/*BOTTOM NAVIGATION BAR*/
+/*BOTTOM NAVIGATION BAR*/
+.BottomNavBar{
+    margin-top:3em;
+    text-align:center;
+}
+
+.BottomNavBar #NavLink:hover {
+        color: white;
+        -webkit-transition:color 1s;
+}
+
+
+/*COPYRIGHT FOOTNOTE*/
+/*COPYRIGHT FOOTNOTE*/
+.CopyrightBox{
+    margin-top: .5em;
+    text-align:center;
+}
+h10 {
+    font-size:.7rem;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:grey;
+}
+
+
+/* CONTACT INFO FOOTNOTE */
+.ContactInfoFootnote{
+    text-align: center;
+    vertical-align:text-bottom;
+}
+#Linken:hover{
+    opacity:1 !important;
+}
+#GitHub:hover{
+    opacity:1 !important;
+}
+#Gmail:hover{
+    opacity:1 !important;
+}
+.ContactInfoFootnote:hover #Linken{
+    opacity:.5;
+}
+.ContactInfoFootnote:hover #Gmail {
+    opacity: .5;
+}
+.ContactInfoFootnote:hover #GitHub {
+    opacity: .5;
+}
