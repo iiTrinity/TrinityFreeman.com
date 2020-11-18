@@ -220,17 +220,15 @@ h10 {
 
 /*Services*/
 .Services img{
-    width: 350px;
+    width: 450px;
     opacity:.9;
 }
 .Services{
     margin-top:2em;
-    margin-left:6em;
-    margin-right:6em;
     margin-bottom:20em;
     text-align:center;
 }
 .Services img:hover{
-    width:351px;
+    width:451px;
     opacity:1;
 }
