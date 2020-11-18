@@ -235,7 +235,9 @@ h10 {
     margin-bottom:10em;
     text-align:center;
 }
-.Services img:hover{
-    width:30.1%;
-    opacity:1;
-}
+    .Services img:hover {
+        transition: 1s;
+        width: 30.01%;
+        opacity: 1;
+        box-shadow: 26px 25px 100px -20px rgba(255,255,255, .1);
+    }
