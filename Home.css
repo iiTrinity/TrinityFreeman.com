@@ -91,7 +91,7 @@ body {
     width: 40%;
     margin-top: 5em;
     margin-bottom: 0.5em;
-    margin-right: .5em;
+    margin-right: .5%;
     border-style: inset;
     border-width: 1px;
     color: #e7e7e7;
@@ -113,7 +113,7 @@ h3 {
     width: 40%;
     margin-top: 5em;
     margin-bottom: 0.5em;
-    margin-left: .5em;
+    margin-left: .5%;
     border-style: inset;
     border-width: 1px;
     color: #e7e7e7;
@@ -122,8 +122,8 @@ h3 {
 
 /*ABOUT ME BODY*/
 .AboutMeBody {
-    margin-right:6em;
-    margin-left:6em;
+    margin-right:6%;
+    margin-left:6%;
     margin-top: 1em;
     text-align: -webkit-center;
 }
