@@ -204,10 +204,13 @@ h10 {
 /*PORTFOLIO*/
 
 /*Photography*/
-#Pictures img{
-    width:200px;
-    height:200px;
-    object-fit:cover;
+#Pictures img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 26px 25px 100px -20px rgba(255,255,255, .05);
+    border-radius: 25px;
+    border: .5px ridge black;
 }
 #Pictures {
     margin-left:8em;
@@ -219,9 +222,12 @@ h10 {
 }
 
 /*Services*/
-.Services img{
+.Services img {
     width: 30%;
-    opacity:.9;
+    opacity: .9;
+    box-shadow: 26px 25px 100px -20px rgba(255,255,255, .05);
+    border-radius: 25px;
+    border: .5px ridge black;
 }
 .Services{
     margin-top:2em;
