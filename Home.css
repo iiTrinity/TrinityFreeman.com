@@ -18,10 +18,10 @@ body {
     background-color: black;
     margin-left: 5em;
     margin-right: 5em;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
     justify-content: space-between;
     align-items:center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 /*NAVIGATION BAR TRANSITIONS*/
@@ -50,7 +50,7 @@ body {
     color: rgb(255 255 255 / .75);
     margin-left: .5em;
     margin-right: .5em;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
     z-index: 2;
 }
 #Packet #NavLink:hover{
@@ -70,11 +70,14 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
 }
 .CircleBox {
     margin-top: 5em;
     text-align: -webkit-center;
+}
+Name{
+    font-size:2.3rem;
 }
 
 
@@ -83,49 +86,40 @@ body {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3em;
-    font-size: 1.5rem;
+    margin-top: 7em;
+    font-size: 1.6rem;
 }
 .AboutMeLineLeft {
     display: inline-block;
-    width: 40%;
-    margin-top: 5em;
     margin-bottom: 0.5em;
-    margin-right: .5%;
+    margin-right: .5em;
+    width: 90%;
+    margin-left: .5em;
     border-style: inset;
-    border-width: 1px;
+    border-width: .1px;
     color: #e7e7e7;
-    opacity:.35;
+    opacity: .25;
 }
-h2{
-    font-weight:lighter;
-    font-size: 1.2rem;
+h2 {
+    font-weight: lighter;
+    font-size: 1.3rem;
+    margin-block-start: 0em;
 }
 h3 {
     display: inline-block;
     color: #e7e7e7;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
     font-weight: 400;
     color: rgb(255,255,255, .75);
-}
-.AboutMeLineRight {
-    display: inline-block;
-    width: 40%;
-    margin-top: 5em;
-    margin-bottom: 0.5em;
-    margin-left: .5%;
-    border-style: inset;
-    border-width: 1px;
-    color: #e7e7e7;
-    opacity:.35;
 }
 
 /*ABOUT ME BODY*/
 .AboutMeBody {
     margin-right:6%;
     margin-left:6%;
-    margin-top: 1em;
+    margin-top:2.5em;
     text-align: -webkit-center;
+    align-content:center;
 }
 #AboutMeBox {
     width: 1200px;
@@ -136,21 +130,26 @@ h3 {
     background: black; /*#1c1c1c*/
     display: flex;
     vertical-align: middle;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+}
+Introduction {
+    text-align: left;
+    width: 69%;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    color: rgb(255 255 255 / .70);
+    line-height: 40px;
+    font-size: 2rem;
 }
 .AboutMeParagraph {
     text-align: left;
     width: 69%;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
     color: rgb(255 255 255 / .50);
-    margin-top: 4em;
-    margin-left:5%;
     line-height: 40px;
+    font-size:1.01rem;
 }
 #Portrait{
-    margin-right: 1em;
-    align-self:center;
-    float:right;
+    margin-left:2em;
 }
 
 /*BOTTOM NAVIGATION BAR*/
@@ -173,7 +172,7 @@ h3 {
     text-align:center;
 }
 h10 {
-    font-size:.7rem;
+    font-size:.8rem;
     font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, Times New Roman;
     color:grey;
 }
