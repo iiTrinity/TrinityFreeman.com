@@ -1,6 +1,8 @@
 ﻿html {
     width: 100%;
     height: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
 }
 body {
     background-color:black;
@@ -113,14 +115,14 @@ h3 {
 
 /*ABOUT ME BODY*/
 .AboutMeBody {
-    margin-right:6%;
-    margin-left:6%;
+    margin-right:10%;
+    margin-left:10%;
     margin-top:2.5em;
     text-align: -webkit-center;
     align-content:center;
 }
 #AboutMeBox {
-    width: 1200px;
+    width: 100%;
     height: 500px;
     -webkit-border-radius: 200px;
     -moz-border-radius: 200px;
