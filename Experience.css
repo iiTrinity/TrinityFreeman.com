@@ -50,7 +50,7 @@ body {
 #NavLink {
     -webkit-transition: opacity 1s;
     position: relative;
-    color: rgb(255 255 255 / .75);
+    color: rgba(255 255 255 / .75);
     margin-left: .5em;
     margin-right: .5em;
     font-family: 'Baloo 2', sans-serif, Times New Roman;
@@ -94,7 +94,7 @@ h3 {
     font-family: 'Baloo 2', sans-serif, Times New Roman;
     font-weight: 100;
     font-size: 1.4rem;
-    color: rgb(255,255,255, .75);
+    color: rgba(255,255,255, .75);
 }
 Header {
     margin-top:1em;
@@ -103,7 +103,7 @@ Header {
     font-family: 'Baloo 2', sans-serif, Times New Roman;
     font-weight: 100;
     font-size: 1.9rem;
-    color: rgb(255,255,255, .75);
+    color: rgba(255,255,255, .75);
 }
 
 
@@ -218,7 +218,8 @@ h10 {
     text-align:center;
 }
 #Pictures img:hover{
-    
+    transition:1s;
+    opacity: .5;
 }
 
 /*Services*/
