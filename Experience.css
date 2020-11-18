@@ -53,7 +53,7 @@ body {
     color: rgb(255 255 255 / .75);
     margin-left: .5em;
     margin-right: .5em;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: "Comic Sans MS", cursive, Times New Roman;
     z-index: 2;
 }
 
@@ -91,7 +91,7 @@ h2 {
 h3 {
     display: inline-block;
     color: #e7e7e7;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: "Comic Sans MS", cursive, Times New Roman;
     font-weight: 100;
     font-size: 1.3rem;
     color: rgb(255,255,255, .75);
@@ -100,7 +100,7 @@ Header {
     margin-top:1em;
     text-align:center;
     color: #e7e7e7;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: "Comic Sans MS", cursive, Times New Roman;
     font-weight: 100;
     font-size: 1.8rem;
     color: rgb(255,255,255, .75);
@@ -114,7 +114,7 @@ Header {
     margin-right: 12%;
     margin-left: 12%;
     margin-bottom: 3em;
-    font-family: "Comic Sans MS", sans-serif, Times New Roman;
+    font-family: "Comic Sans MS", cursive, Times New Roman;
     font-weight:100;
     opacity:.7;
 }
@@ -136,7 +136,7 @@ PositionTitle{
 
 }
 PositionDescription{
-    font-size:.8rem;
+    font-size:.92rem;
     opacity:.8;
 }
 
