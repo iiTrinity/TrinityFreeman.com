@@ -122,12 +122,6 @@ h3 {
     align-content:center;
 }
 #AboutMeBox {
-    width: 100%;
-    height: 500px;
-    -webkit-border-radius: 200px;
-    -moz-border-radius: 200px;
-    border-radius: 110px;
-    background: black; /*#1c1c1c*/
     display: flex;
     vertical-align: middle;
     font-family: 'Baloo 2', sans-serif, Times New Roman;
@@ -149,7 +143,6 @@ Introduction {
     font-size:1.01rem;
 }
 #Portrait {
-    width:50%;
     margin-left: 2em;
     box-shadow: 26px 25px 100px -20px rgba(255,255,255, .25);
     border-radius: 25px;
