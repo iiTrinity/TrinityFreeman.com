@@ -149,6 +149,7 @@ Introduction {
     font-size:1.01rem;
 }
 #Portrait {
+    width:50%;
     margin-left: 2em;
     box-shadow: 26px 25px 100px -20px rgba(255,255,255, .25);
     border-radius: 25px;
