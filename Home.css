@@ -148,8 +148,11 @@ Introduction {
     line-height: 40px;
     font-size:1.01rem;
 }
-#Portrait{
-    margin-left:2em;
+#Portrait {
+    margin-left: 2em;
+    box-shadow: 26px 25px 100px -20px rgba(255,255,255, .25);
+    border-radius: 25px;
+    border: .5px ridge black;
 }
 
 /*BOTTOM NAVIGATION BAR*/
