@@ -205,8 +205,8 @@ h10 {
 
 /*Photography*/
 #Pictures img{
-    width:200px;
-    height:200px;
+    width:auto;
+    height:auto;
     object-fit:cover;
 }
 #Pictures {
