@@ -19,7 +19,7 @@ body {
     background-color: black;
     margin-left: 5em;
     margin-right: 5em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", 'Times New Roman', Times New Roman;
     justify-content: space-between;
     align-items: center;
     font-size: 1.1rem;
@@ -53,7 +53,7 @@ body {
     color: rgb(255 255 255 / .75);
     margin-left: .5em;
     margin-right: .5em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     z-index: 2;
 }
 
@@ -91,16 +91,16 @@ h2 {
 h3 {
     display: inline-block;
     color: #e7e7e7;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     font-weight: 100;
     font-size: 1.3rem;
     color: rgb(255,255,255, .75);
 }
 Header {
-    margin-top:2em;
+    margin-top:1em;
     text-align:center;
     color: #e7e7e7;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     font-weight: 100;
     font-size: 1.8rem;
     color: rgb(255,255,255, .75);
@@ -114,7 +114,7 @@ Header {
     margin-right: 12em;
     margin-left: 12em;
     margin-bottom: 3em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     font-weight:100;
     opacity:.7;
 }
@@ -163,7 +163,7 @@ PositionDescription{
 
 h10 {
     font-size: .7rem;
-    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, Times New Roman;
     color: grey;
 }
 
@@ -225,7 +225,7 @@ h10 {
 }
 .Services{
     margin-top:2em;
-    margin-bottom:20em;
+    margin-bottom:10em;
     text-align:center;
 }
 .Services img:hover{

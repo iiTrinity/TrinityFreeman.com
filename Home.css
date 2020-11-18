@@ -18,7 +18,7 @@ body {
     background-color: black;
     margin-left: 5em;
     margin-right: 5em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     justify-content: space-between;
     align-items:center;
     font-size: 1.1rem;
@@ -50,7 +50,7 @@ body {
     color: rgb(255 255 255 / .75);
     margin-left: .5em;
     margin-right: .5em;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     z-index: 2;
 }
 #Packet #NavLink:hover{
@@ -70,7 +70,7 @@ body {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
 }
 .CircleBox {
     margin-top: 5em;
@@ -104,7 +104,7 @@ h2{
 h3 {
     display: inline-block;
     color: #e7e7e7;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     font-weight: 400;
     color: rgb(255,255,255, .75);
 }
@@ -122,6 +122,8 @@ h3 {
 
 /*ABOUT ME BODY*/
 .AboutMeBody {
+    margin-right:6em;
+    margin-left:6em;
     margin-top: 1em;
     text-align: -webkit-center;
 }
@@ -134,12 +136,12 @@ h3 {
     background: black; /*#1c1c1c*/
     display: flex;
     vertical-align: middle;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
 }
 .AboutMeParagraph {
     text-align: left;
     width: 69%;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, Times New Roman;
     color: rgb(255 255 255 / .50);
     margin-top: 4em;
     margin-left:5em;
@@ -172,7 +174,7 @@ h3 {
 }
 h10 {
     font-size:.7rem;
-    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, Times New Roman;
     color:grey;
 }
 
