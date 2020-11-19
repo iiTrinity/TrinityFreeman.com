@@ -83,6 +83,7 @@ body {
     opacity:.25;
 }
 
+
 h2 {
     font-weight: lighter;
     font-size: 1.1rem;
@@ -241,3 +242,43 @@ h10 {
         opacity: 1;
         box-shadow: 26px 25px 100px -20px rgba(255,255,255, .1);
     }
+
+
+/*Skills*/
+.Skills{
+    margin-top:10rem;
+    display:flex;
+    justify-content:center;
+}
+.Levels{
+    color:white;
+    display:block;
+}
+.Level {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #e7e7e7;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(255,255,255, .75);
+    margin-right:1rem;
+    text-align:center;
+}
+.SkilsBoxes{
+    align-items:center;
+}
+.SkillsBox {
+    width: 800px;
+    border: .1px solid rgba(255,255,255,.25);
+    padding: 60px;
+    margin-bottom:0px;
+}
+.LineFull {
+    margin-bottom: 0.5em;
+    width: 100%;
+    border-style: inset;
+    border-width: .1px;
+    color: #e7e7e7;
+    opacity: .25;
+}
