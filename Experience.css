@@ -205,13 +205,14 @@ h10 {
 /*PORTFOLIO*/
 
 /*Photography*/
+/*Photography*/
 #Pictures img {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    box-shadow: 26px 25px 100px -20px rgba(255,255,255, .05);
+    box-shadow: 13px 10px 20px 0px rgba(255,255,255, .1);
     border-radius: 25px;
-    border: .5px ridge black;
+    border: .5px solid rgba(255,255,255,.15);
 }
 #Pictures {
     margin-left:8em;
@@ -223,6 +224,9 @@ h10 {
     opacity: .5;
 }
 
+
+
+/*Services*/
 /*Services*/
 .Services img {
     width: 30%;
@@ -244,6 +248,8 @@ h10 {
     }
 
 
+
+/*Skills*/
 /*Skills*/
 .Skills{
     margin-top:1rem;
@@ -306,6 +312,7 @@ Skill {
     opacity:.5;
 }
 
+
 .AdditionalSkills {
     margin-top: 10em;
     
@@ -315,7 +322,7 @@ Skill {
     text-align:center;
 }
 .SkillsLogos img{
-    width:100px;
+    width:95px;
     border: 1px solid rgba(255,255,255,.2);
     border-radius: 8px;
     box-shadow: 10px 10px 20px 0px rgba(255,255,255, .09);
@@ -327,8 +334,8 @@ Skill {
 SkillsHeader {
     font-family: 'Baloo 2', sans-serif, Times New Roman;
     text-align: left;
-    margin-left:14.5%;
+    margin-left:12.5%;
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: rgba(255,255,255, .75);
 }
