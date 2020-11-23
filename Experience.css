@@ -34,6 +34,7 @@ body {
 
 #LinkPic {
     -webkit-transition: opacity 1s;
+    transition:opacity 1s;
     display: inline;
     position: absolute;
     opacity: 0;
