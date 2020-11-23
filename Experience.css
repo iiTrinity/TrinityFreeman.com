@@ -50,7 +50,7 @@ body {
 #NavLink {
     -webkit-transition: opacity 1s;
     position: relative;
-    color: rgba(255 255 255 / .75);
+    color: rgba(255, 255, 255, .75);
     margin-left: .5em;
     margin-right: .5em;
     font-family: 'Baloo 2', sans-serif, Times New Roman;
@@ -60,7 +60,6 @@ body {
 #Packet #NavLink:hover {
     opacity: 0;
 }
-
 
 /*EXPERIENCE LINE*/
 /* EXPERIENCE LINE*/
@@ -206,7 +205,7 @@ h10 {
 
 /*Photography*/
 /*Photography*/
-#Pictures img {
+.Pictures img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -214,18 +213,45 @@ h10 {
     border-radius: 25px;
     border: .5px solid rgba(255,255,255,.15);
 }
-#Pictures {
+.Pictures {
     margin-left:8em;
     margin-right:8em;
     text-align:center;
 }
-    #Pictures img:hover {
+ .Pictures img:hover {
         transition: 1s;
         opacity: .5;
         box-shadow: 13px 10px 20px 0px rgba(255,255,255, 0);
         border: .5px solid rgba(255,255,255,.4);
     }
-
+.MoreBox img:hover ~ More{
+     transition: 1s;
+     opacity:.9;
+ }
+ .MoreBox{
+     display:inline-block;
+     position:relative;
+ }
+More {
+    border: 1px solid rgba(255,255,255,.2);
+    padding:1px;
+    border-radius: 5px;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    bottom: 25%;
+    position: absolute;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    font-weight: 400;
+    color: rgba(255,255,255, .75);
+}
+More:hover{
+    background-color:rgba(255,255,255, .75);
+    color:black;
+}
+More:not(:hover){
+    opacity:0;
+}
 
 
 /*Services*/
@@ -296,9 +322,9 @@ h10 {
     width: 150px;
     bottom: 1px;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5fb2a8), color-stop(1, #b0dbd6));
-    box-shadow: 26px 25px 100px -20px rgba(255,255,255, .1);
+    box-shadow: 13px 7px 10px 0px rgba(255,255,255, .13);
     border-radius: 4px;
-    border: .5px ridge black;
+    border: .5px ridge rgba(255,255,255, .3);
 }
 Skill {
     position:absolute;
@@ -306,12 +332,12 @@ Skill {
     color:black;
     font-family: 'Baloo 2', sans-serif, Times New Roman;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: .85rem;
     left:0;
     right:0;
     text-align:center;
     bottom:0;
-    opacity:.5;
+    opacity:.75;
 }
 
 
@@ -340,4 +366,54 @@ SkillsHeader {
     font-weight: 400;
     font-size: 1.3rem;
     color: rgba(255,255,255, .75);
+}
+
+
+/*CONTACT*/
+/*CONTACT*/
+.ContactBox {
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255,255,255, .4);
+    margin-left:25%;
+    margin-top:2em;
+    margin-bottom:100px;
+}
+.CustomerBox{
+    margin-right:35%;
+    margin-bottom:20px;
+}
+input {
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 2px;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    color: rgba(255,255,255, .9);
+    background-color: black;
+    resize:vertical;
+    width:100%;
+}
+textarea {
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 2px;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    color: rgba(255,255,255, .9);
+    background-color: black;
+    resize: vertical;
+    width:100%;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: rgba(255,255,255,.7);
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 6%;
+    margin-left:1%;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
 }
