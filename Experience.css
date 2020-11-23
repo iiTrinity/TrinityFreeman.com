@@ -218,16 +218,16 @@ h10 {
     margin-right:8em;
     text-align:center;
 }
- .Pictures img:hover {
-        transition: 1s;
-        opacity: .5;
-        box-shadow: 13px 10px 20px 0px rgba(255,255,255, 0);
-        border: .5px solid rgba(255,255,255,.4);
-    }
 .MoreBox img:hover ~ More{
      transition: 1s;
      opacity:.9;
  }
+.MoreBox:hover > img {
+    transition: 1s;
+    opacity: .5;
+    box-shadow: 13px 10px 20px 0px rgba(255,255,255, 0);
+    border: .5px solid rgba(255,255,255,.4);
+}
  .MoreBox{
      display:inline-block;
      position:relative;
@@ -410,7 +410,6 @@ input[type=submit] {
     padding: 6px 10px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
     width: 6%;
     margin-left:1%;
 }
