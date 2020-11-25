@@ -144,6 +144,9 @@ PositionDescription{
 
 /*BOTTOM NAVIGATION BAR*/
 /*BOTTOM NAVIGATION BAR*/
+a{
+    text-decoration:none;
+}
 .BottomNavBar {
     margin-top: 3em;
     text-align: center;
@@ -219,7 +222,7 @@ h10 {
     margin-right:8em;
     text-align:center;
 }
-.MoreBox img:hover ~ More{
+.MoreBox img:hover ~ .More{
      transition: 1s;
      opacity:.9;
  }
@@ -233,7 +236,7 @@ h10 {
      display:inline-block;
      position:relative;
  }
-More {
+.More {
     border: 1px solid rgba(255,255,255,.2);
     padding:1px;
     border-radius: 5px;
@@ -246,12 +249,51 @@ More {
     font-weight: 400;
     color: rgba(255,255,255, .75);
 }
-More:hover{
+.More:hover{
     background-color:rgba(255,255,255, .75);
     color:black;
+    cursor:pointer;
 }
-More:not(:hover){
+.More:not(:hover){
     opacity:0;
+}
+
+
+/*PopUpBox*/
+/*PopUp Box*/
+.PopUp {
+    display:none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.6);
+}
+.PopUpContent {
+    background-color: black;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid rgba(255,255,255, .2);
+    width: 80%;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    font-weight: 400;
+    color: rgba(255,255,255, .75);
+}
+.close {
+    color: rgba(255,255,255, .4);
+    float: right;
+    font-family: 'Baloo 2', sans-serif, Times New Roman;
+    font-size: 28px;
+    font-weight: 400;
+}
+.close:hover,
+ .close:focus {
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -296,7 +338,7 @@ More:not(:hover){
     font-family: 'Baloo 2', sans-serif, Times New Roman;
     font-weight: 500;
     font-size: 1rem;
-    color: rgba(255,255,255, .75);
+    color: rgba(255,255,255, .55);
     margin-right:1rem;
     text-align:center;
 }
@@ -305,7 +347,7 @@ More:not(:hover){
 }
 .SkillsBox {
     width: 800px;
-    border: .1px solid rgba(255,255,255,.25);
+    border: .1px solid rgba(255,255,255,.15);
     padding: 60px;
     margin-bottom:0px;
 }
@@ -325,7 +367,6 @@ More:not(:hover){
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5fb2a8), color-stop(1, #b0dbd6));
     box-shadow: 13px 7px 10px 0px rgba(255,255,255, .13);
     border-radius: 4px;
-    border: .5px ridge rgba(255,255,255, .3);
 }
 Skill {
     position:absolute;
@@ -337,14 +378,13 @@ Skill {
     left:0;
     right:0;
     text-align:center;
-    bottom:0;
+    bottom:2px;
     opacity:.75;
 }
 
 
 .AdditionalSkills {
     margin-top: 10em;
-    
 }
 .SkillsLogos {
     margin-top:2em;
@@ -366,7 +406,7 @@ SkillsHeader {
     margin-left:12.5%;
     font-weight: 400;
     font-size: 1.3rem;
-    color: rgba(255,255,255, .75);
+    color: rgba(255,255,255, .55);
 }
 
 
