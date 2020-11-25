@@ -305,6 +305,7 @@ h10 {
     box-shadow: 26px 25px 100px -20px rgba(255,255,255, .05);
     border-radius: 25px;
     border: .5px ridge black;
+    cursor:pointer;
 }
 .Services{
     margin-top:2em;
@@ -376,6 +377,10 @@ TSkillsHeader {
     bottom: 1px;
     box-shadow: 13px 7px 10px 0px rgba(255,255,255, .13);
     border-radius: 4px;
+}
+.Bar:hover{
+    filter:brightness(95%);
+    cursor:pointer;
 }
 Skill {
     position:absolute;
@@ -465,4 +470,5 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: #45a049;
+  cursor:pointer;
 }
