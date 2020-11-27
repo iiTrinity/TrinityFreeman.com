@@ -1,4 +1,5 @@
 <?php 
+echo 'This joint is broken'
 $name = $_POST['Name'];
 $email = $_POST['Email'];
 $message = $_POST['Message'];
