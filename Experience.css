@@ -411,7 +411,8 @@ Skill {
     box-shadow: 10px 10px 20px 0px rgba(255,255,255, .09);
 }
 .SkillsLogos img:hover{
-    opacity:.5;
+    opacity:.7;
+    cursor:pointer;
 }
 
 SkillsHeader {
