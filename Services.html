@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <link href="Experience.css" rel="stylesheet" />
     <title>Trinity Freeman</title>
+    <script defer src="Front.js"></script>
 </head>
 <body>
 
@@ -18,37 +19,37 @@
 
         <div class="Links">
 
-            <div id="Packet">
-                <a id="NavLink" style="text-decoration:none;" href="Home.html">Home</a>
-                <img id="LinkPic" src="../../images/Home.jpg" style="width:60px" ; />
+            <div class="Packet">
+                <a class="NavLink" style="text-decoration:none;" href="Home.html">Home</a>
+                <img class="LinkPic" src="../../images/Home.jpg" style="width:60px" ; />
             </div>
 
-            <div id="Packet">
-                <a id="NavLink" style="text-decoration:none;" href="Experience.html">Experience</a>
-                <img id="LinkPic" src="../../images/Experience.jpg" style="width:60px" ; />
+            <div class="Packet">
+                <a class="NavLink" style="text-decoration:none;" href="Experience.html">Experience</a>
+                <img class="LinkPic" src="../../images/Experience.jpg" style="width:60px" ; />
             </div>
 
-            <div id="Packet">
-                <a id="NavLink" style="text-decoration:none;" href="Portfolio.html">Portfolio</a>
-                <img id="LinkPic" src="../../images/Portfolio.jpg" style="width:60px" ; />
+            <div class="Packet">
+                <a class="NavLink" style="text-decoration:none;" href="Portfolio.html">Portfolio</a>
+                <img class="LinkPic" src="../../images/Portfolio.jpg" style="width:60px" ; />
             </div>
 
-            <div id="Packet">
-                <a id="NavLink" style="text-decoration:none;" href="Skills.html">Skills</a>
-                <img id="LinkPic" src="../../images/Skills.jpg" style="width:60px" ; />
+            <div class="Packet">
+                <a class="NavLink" style="text-decoration:none;" href="Skills.html">Skills</a>
+                <img class="LinkPic" src="../../images/Skills.jpg" style="width:60px" ; />
             </div>
 
-            <div id="Packet">
-                <a id="NavLink" style="text-decoration:none;" href="Services.html">Services</a>
-                <img id="LinkPic" src="../../images/Services.jpg" style="width:60px" ; />
+            <div class="Packet">
+                <a class="NavLink" style="text-decoration:none;" href="Services.html">Services</a>
+                <img class="LinkPic" src="../../images/Services.jpg" style="width:60px" ; />
             </div>
 
-            <div id="Packet">
-                <a id="NavLink" style="text-decoration:none;" href="Contact.html">Contact</a>
-                <img id="LinkPic" src="../../images/Contact.jpg" style="width:60px" ; />
+            <div class="Packet">
+                <a class="NavLink" style="text-decoration:none;" href="Contact.html">Contact</a>
+                <img class="LinkPic" src="../../images/Contact.jpg" style="width:60px" ; />
             </div>
 
-            <!--<a id="NavLink" style="text-decoration:none;" href="#">Resume</a>-->
+            <!--<a class="NavLink" style="text-decoration:none;" href="#">Resume</a>-->
 
         </div>
 
@@ -58,26 +59,100 @@
     <!--Service Pictures-->
     <header><br /> <br /></header>
     <div class="Services">
-        <img src="../images/Services/App Development.jpg" />
-        <img src="../images/Services/Photography Service.jpg" />
-        <img src="../images/Services/Web Development.jpg" />
+        <img id="AppDevelopmentButton" src="../images/Services/App Development.jpg"/>
+        <img src="../images/Services/Photography Service.jpg" id="PhotographyButton" />
+        <img src="../images/Services/Web Development.jpg" id="WebDevelopmentButton" />
     </div>
 
+    <!--SERVICES DESCRIPTIONS-->
+    <!--SERVICES DESCTIPTIONS-->
+    <div class="Descriptions">
+       <div class="AppDevelopment">
+            <Scheduling></Scheduling>
+            <div class="Description">
+                I provide an abundance of Application Development services including, but not limited to:<br />
+            </div>
+            <div class="ListedServices">
+                • Logo Creation <br />
+                • Thingy One <br />
+                • Thingy Two <br />
+            </div>
+            <div class="Description">
+                I have experience creating a variety of applications, including:<br />
+            </div>
+            <div class="ListedServices">
+                • Event <br />
+            </div>
+            <div class="Pricing">
+                <PricingDescription>Find out how my services can assist you with making your application dreams a reality. <br /></PricingDescription>
+                <a id="Pricing" style="text-decoration:none; color:rgba(255,255,255, .65);" href="Contact.html">Learn More</a>
+            </div>
+        </div>
+        <div class="Photography">
+            <Scheduling></Scheduling>
+            <div class="Description">
+                I provide an abundance of photography services including, but not limited to:<br />
+            </div>
+            <div class="ListedServices">
+                • Photo Editing <br />
+                • Photo Retouching <br />
+                • Digital Photo Library <br />
+            </div>
+            <div class="Description">
+                I have experience shooting a variety of photos, including:<br />
+            </div>
+            <div class="ListedServices">
+                • Event <br />
+                • Family<br />
+                • Maternity<br />
+                • Pet<br />
+                • Portrait<br />
+                • Couples Portrait<br />
+            </div>
+            <div class="Pricing">
+                <PricingDescription>Find out how my services can assist you with your photographic needs. <br /></PricingDescription>
+                <a id="Pricing" style="text-decoration:none; color:rgba(255,255,255, .65);" href="Contact.html">Learn More</a>
+            </div>
+        </div>
+       <div class="WebDevelopment">
+           <Scheduling></Scheduling>
+           <div class="Description">
+               I provide an abundance of Web Development services including, but not limited to:<br />
+           </div>
+           <div class="ListedServices">
+               • Logo Creation <br />
+               • Domain Creation <br />
+               • Domain Hosting<br />
+           </div>
+           <div class="Description">
+               I have experience creating a variety of websites, including:<br />
+           </div>
+           <div class="ListedServices">
+               • Personal <br />
+               • Business <br />
+               • Portfolio <br />
+           </div>
+           <div class="Pricing">
+               <PricingDescription>Find out how my services can assist you with making your website dreams a reality. <br /></PricingDescription>
+               <a id="Pricing" style="text-decoration:none; color:rgba(255,255,255, .65);" href="Contact.html">Learn More</a>
+           </div>
+       </div>
 
+    </div>
 
 
 
     <!--BOTTOM NAVIGATION BAR-->
     <!--BOTTOM NAVIGATION BAR-->
     <div class="BottomNavBar">
-
-        <a id="NavLink" style="text-decoration:none;" href="Home.html">Home</a>
-        <a id="NavLink" style="text-decoration:none;" href="Experience.html">Experience</a>
-        <a id="NavLink" style="text-decoration:none;" href="Portfolio.html">Portfolio</a>
-        <a id="NavLink" style="text-decoration:none;" href="Skills.html">Skills</a>
-        <a id="NavLink" style="text-decoration:none;" href="Services.html">Services</a>
-        <a id="NavLink" style="text-decoration:none;" href="Contact.html">Contact</a>
-        <a id="NavLink" style="text-decoration:none;" href="../images/Trinity Freeman Resume.pdf">Resume</a>
+        <div class="LineFull"></div>
+        <a class="NavLink" style="text-decoration:none;" href="Home.html">Home</a>
+        <a class="NavLink" style="text-decoration:none;" href="Experience.html">Experience</a>
+        <a class="NavLink" style="text-decoration:none;" href="Portfolio.html">Portfolio</a>
+        <a class="NavLink" style="text-decoration:none;" href="Skills.html">Skills</a>
+        <a class="NavLink" style="text-decoration:none;" href="Services.html">Services</a>
+        <a class="NavLink" style="text-decoration:none;" href="Contact.html">Contact</a>
+        <a class="NavLink" style="text-decoration:none;" href="../images/Trinity Freeman Resume.pdf">Resume</a>
 
     </div>
 

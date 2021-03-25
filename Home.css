@@ -25,13 +25,13 @@ body {
 }
 
 /*NAVIGATION BAR TRANSITIONS*/
-#Packet {
+.Packet {
     display: inline;
     position: relative;
     z-index: 0;
 }
 
-#LinkPic {
+.LinkPic {
     -webkit-transition: opacity 1s;
     display: inline;
     position: absolute;
@@ -42,11 +42,11 @@ body {
     padding: 0px;
 }
 
-#NavLink:hover ~ #LinkPic {
+.NavLink:hover ~ .LinkPic {
     opacity: 1;
 }
 
-#NavLink {
+.NavLink {
     -webkit-transition: opacity 1s;
     transition: opacity 1s;
     position: relative;
@@ -57,7 +57,7 @@ body {
     z-index: 2;
 }
 
-#Packet #NavLink:hover {
+.Packet .NavLink:hover {
     opacity: 0;
 }
 
@@ -166,6 +166,10 @@ body {
     background-color: black;
 }
 
+
+/*CHATBUBBLE*/
+/*CHATBUBBLE*/
+
 /*BOTTOM NAVIGATION BAR*/
 /*BOTTOM NAVIGATION BAR*/
 .BottomNavBar {
@@ -173,7 +177,7 @@ body {
     text-align: center;
 }
 
-    .BottomNavBar #NavLink:hover {
+    .BottomNavBar .NavLink:hover {
         color: white;
         -webkit-transition: color 1s;
     }
